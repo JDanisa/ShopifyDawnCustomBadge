@@ -1,0 +1,9 @@
+<div class="card__badge {{ settings.custom_badge_position }}">
+    {%- if card_product.metafields.custom.fast_shipping.value == false and card_product.available == true -%}
+        <span
+            id="Badge-{{ section_id }}-{{ card_product.id }}"
+            class="badge badge--bottom-right color-{{ settings.custom_badge_color_scheme }}">
+			{{- 'products.product.custom_badge_one' | t -}}
+		</span>
+    {%- endif -%}
+</div>
