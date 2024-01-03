@@ -1,6 +1,6 @@
 {
 	"current": {
-		"shipping_time_badge_color_scheme": "accent-1",
+		"custom_badge_color_scheme": "accent-1",
 		"custom_badge_position": "bottom right",
 		"color_schemes": {
 			"accent-1": {
